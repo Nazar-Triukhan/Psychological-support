@@ -4,14 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Psychological support</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif+Georgian:wght@100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./reset.css">
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <!-- навігація -->
   <header class="header">
+    <div class="container header-box">
     <img class="header-img" src="./image/Logo.png" alt="">
     <ul class="header-list">
       <li class="header-item"><a class="header-nav" href="#">Why Alivio</a></li>
@@ -19,21 +21,26 @@
       <li class="header-item"><a class="header-nav" href="#">Community</a></li>
       <li class="header-item"><a class="header-nav" href="#">Pricing</a></li>
     </ul>
-    <a class="header-link">Sign in</a>
+    <a class="header-link" href="#">Sign in</a>
     <button type="button" class="header-btn">Start Trial</button>
-    <img class="header-image" src="./image/background-hero.png" alt="">
+  
+  </div>
   </header>
   <!-- шапка сайта -->
-  <section class="hero">
+  <section class="hero">  
+    <img class="header-image" src="./image/background-hero.png" alt="">
+    <div class="container">
     <h1 class="hero-title">Be aware, 
       Manage well.</h1>
       <p class="hero-text">Everyone experiences stress in different ways.
         Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
         <button type="button" class="hero-btn">Find Your Way</button>
+      </div>
   </section>
   <!-- Зрозуміти і відпустити
 стрес в 3 кроки -->
   <section class="works">
+    <div class="container">
     <p class="works-subtitle">How it works</p>
     <h2 class="works-title">Understand & Release 
       the stress in 3 steps</h2>
@@ -59,18 +66,22 @@
           <img class="works-img" src="./image/woomen.png" alt="">
         </li>
       </ul>
+    </div>
   </section>
   <!-- Давайте послухаємо історію успіху Кайли -->
    <section class="history">
+    <div class="container">
     <h2 class="history-title">Let's hear about Kayla's success story</h2>
     <p class="history-text">See how well Alivio works in a real customer’s life.</p>
     <button class="history-btn" type="button">Let’s get started</button>
     <img class="history-img" src="./image/video-woomen.png" alt="">
     <img class="history-image" src="./image/Group.png" alt="">
+    </div>
    </section>
    <!-- Ви розкажете нам про свій стрес,
 Ми ведемо ваш щоденник -->
    <section class="mikayla">
+    <div class="container">
     <img class="mikayla-image" src="./image/woomen-product.png" alt="">
     <div class="mikayla-box">
       <h3 class="mikayla-title">Customized For</h3>
@@ -92,9 +103,11 @@
 <p class="mikayla-quote">Everyone experiences it, and in different ways.
   Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
   <button class="mikayla-btn" type="button">Find Your Way</button>
+    </div>
    </section>
    <!-- футер -->
     <footer class="footer">
+      <div class="container">
       <h2 class="footer-title">Alivio</h2>
       <ul class="footer-items">
         <li class="footer-item">
@@ -110,6 +123,7 @@
           <p class="footer-text">Pricing</p>
         </li>
       </ul>
+      </div>
     </footer>
 </body>
 </html>

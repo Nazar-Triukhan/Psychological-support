@@ -7,5 +7,82 @@
   --two-paragrav-color: #424242;
   --for-numbers-color: rgba(1, 153, 109, 0.20);
   --background-color: #245852;
+  --background-line-color: #D6D6D6;
 }
 
+.container{
+    width: 1372px;
+margin-right: auto;
+margin-left: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+
+/* <!-- навігація --> */
+
+.header{
+  margin-top: 17px;
+  margin-bottom: 17px;
+
+}
+
+.header-box{
+  display: flex;
+  align-items: center;
+}
+
+.header-img{
+  width: 79.565px;
+height: 23.04px;
+flex-shrink: 0;
+}
+.header-list{
+  gap: 72px;
+  display: flex;
+  margin-left: 172px;
+  margin-right: 283px;
+}
+
+.header-nav{
+  color: var(--header-mini-text-color);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.header-link{
+color: var(--text-color);
+font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 1.2;
+gap: 35px;
+display: flex;
+}
+
+.header-btn{
+  color: var(--text-for-background);
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 1.2;
+padding: 13px 50px;
+border-radius: 4px;
+border: 1px solid var(--popular-text-color);
+background: var(--popular-text-color);
+display: flex;
+margin-left: 35px;
+}
+
+/* hero */
+
+.hero{
+    border-top: 3px solid var(--background-line-color);
+}
+
+.header-image{
+  width: 1519px;
+}
