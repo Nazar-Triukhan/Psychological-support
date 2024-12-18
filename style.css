@@ -1,50 +1,48 @@
 :root {
   --header-mini-text-color: #292929;
   --text-color: #000;
-  --text-for-background: #FFF;
-  --popular-text-color: #01996D;
+  --text-for-background: #fff;
+  --popular-text-color: #01996d;
   --paragrav-color: #484848;
   --two-paragrav-color: #424242;
-  --for-numbers-color: rgba(1, 153, 109, 0.20);
+  --for-numbers-color: rgba(1, 153, 109, 0.2);
   --background-color: #245852;
-  --background-line-color: #D6D6D6;
+  --background-line-color: #d6d6d6;
 }
 
-.container{
-    width: 1372px;
-margin-right: auto;
-margin-left: auto;
-padding-left: 15px;
-padding-right: 15px;
+.container {
+  width: 1372px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
 
 /* <!-- навігація --> */
 
-.header{
+.header {
   margin-top: 17px;
   margin-bottom: 17px;
-
 }
 
-.header-box{
+.header-box {
   display: flex;
   align-items: center;
 }
 
-.header-img{
+.header-img {
   width: 79.565px;
-height: 23.04px;
-flex-shrink: 0;
+  height: 23.04px;
+  flex-shrink: 0;
 }
-.header-list{
+.header-list {
   gap: 72px;
   display: flex;
   margin-left: 172px;
   margin-right: 283px;
 }
 
-.header-nav{
+.header-nav {
   color: var(--header-mini-text-color);
   font-family: Lato;
   font-size: 20px;
@@ -52,37 +50,238 @@ flex-shrink: 0;
   line-height: 1.2;
 }
 
-.header-link{
-color: var(--text-color);
-font-family: Lato;
-font-size: 20px;
-font-weight: 400;
-line-height: 1.2;
-gap: 35px;
-display: flex;
+.header-link {
+  color: var(--text-color);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  gap: 35px;
+  display: flex;
 }
 
-.header-btn{
+.header-btn {
   color: var(--text-for-background);
-text-align: center;
-font-family: Lato;
-font-size: 20px;
-font-weight: 400;
-line-height: 1.2;
-padding: 13px 50px;
-border-radius: 4px;
-border: 1px solid var(--popular-text-color);
-background: var(--popular-text-color);
-display: flex;
-margin-left: 35px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  padding: 13px 50px;
+  border-radius: 4px;
+  border: 1px solid var(--popular-text-color);
+  background: var(--popular-text-color);
+  display: flex;
+  margin-left: 35px;
 }
 
 /* hero */
 
-.hero{
-    border-top: 3px solid var(--background-line-color);
+.hero {
+  border-top: 3px solid var(--background-line-color);
 }
 
-.header-image{
+.header-image {
   width: 1519px;
+}
+
+/* Основний стиль секції */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Висота на весь екран */
+  display: flex;
+  justify-content: center; /* Центрування по горизонталі */
+  align-items: center; /* Центрування по вертикалі */
+  overflow: hidden;
+}
+
+.header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Забезпечує повне покриття фонового зображення */
+  z-index: -1; /* Розташування зображення позаду тексту */
+}
+
+/* Контейнер з текстом */
+.container {
+  text-align: center; /* Центрування тексту всередині контейнера */
+}
+
+/* Стилізація заголовка */
+.hero-title {
+  color: var(--popular-text-color);
+  font-family: Georgia;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 800px;
+  display: flex;
+  justify-content: start;
+  text-align: left;
+}
+
+/* Стилізація абзацу */
+.hero-text {
+  width: 420px;
+  height: 123px;
+  color: var(--paragrav-color);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%; /* 31.4px */
+  display: flex;
+  text-align: left;
+}
+
+/* Стилізація кнопки */
+.hero-btn {
+  color: var(--text-for-background);
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 25px;
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid var(--popular-text-color);
+  background: var(--popular-text-color);
+  padding: 20px 50px;
+}
+
+
+/* <!-- Зрозуміти і відпустити */
+/* стрес в 3 кроки --> */
+
+.works-subtitle{
+  margin-top: 100px;
+  color: var(--two-paragrav-color);
+font-family: Lato;
+font-size: 20px;
+font-weight: 600;
+line-height: 157%; /* 37.68px */
+display: flex;
+text-align: left;
+}
+
+.works-title{
+  color: var(--popular-text-color);
+font-family: Georgia;
+font-size: 40px;
+font-weight: 700;
+line-height: 157%;
+margin-right: 850px; 
+display: flex;
+text-align: left;
+}
+
+.works-paragraf{
+  color: var(--two-paragrav-color);
+font-family: Lato;
+font-size: 15px;
+font-weight: 500;
+line-height: 150%;
+width: 671px;
+height: 269px;
+margin-left: 580px;
+display: flex;
+}
+
+.works-items{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -100px;
+}
+
+.works-subject{
+  color: var(--for-numbers-color);
+font-family: Georgia;
+font-size: 140px;
+font-weight: 400;
+
+}
+
+.works-headline{
+  color: var(--text-color);
+text-align: center;
+font-family: Georgia;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+
+.works-img{
+  width: 390px;
+height: 492px;
+  margin-top: 10px;
+  border-radius: 12px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.works-text{
+  color: var(--two-paragrav-color);
+  width: 382px;
+font-family: Lato;
+font-size: 20px;
+font-weight: 500;
+line-height: 150%; /* 30px */
+}
+
+
+.works-item:nth-child(2){
+  margin-top: 200px;
+  margin-bottom: 25px;
+}
+
+/* <!-- Давайте послухаємо історію успіху Кайли --> */
+
+.history{
+  background-color: var(--background-color);
+  margin-bottom: 70px;
+}
+
+
+
+.history-title{
+  color: var(--text-for-background);
+font-family: Georgia;
+width: 580px;
+font-size: 50px;
+font-weight: 700;
+line-height: 157%;
+text-align: left;
+}
+
+
+.history-text{
+  color: var(--text-for-background);
+font-family: Lato;
+font-size: 20px;
+font-weight: 600;
+line-height: 157%; 
+margin-top: 25px;
+text-align: left;
+}
+
+.history-btn{
+  color: var(--text-for-background);
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 25px;
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid var(--popular-text-color);
+  background: var(--popular-text-color);
+  padding: 20px 50px;
+  margin-top: 50px;
+}
+
+.history-img{
+  width: 600px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
