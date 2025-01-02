@@ -240,7 +240,8 @@ line-height: 150%; /* 30px */
 
 .history{
   background-color: var(--background-color);
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
+  padding-bottom: 176px;
 }
 
 
@@ -280,8 +281,73 @@ text-align: left;
   margin-top: 50px;
 }
 
-.history-img{
-  width: 600px;
-  margin-top: 20px;
-  margin-bottom: 60px;
+.history-boxt{
+  padding-top: 100px;
+  margin-bottom: -300px;
 }
+
+.video-history{
+  width: 600px;
+  height: 300px;
+}
+
+.boxv-history{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 600px;
+}
+
+/* vcvxcvcx */
+
+.mikayla{
+  margin-top: 120px;
+  padding-bottom: 160px;
+}
+
+.mikayla-bacg{
+  width: 638.465px;
+  height: 573.26px;
+  border-radius: 18.112px;
+background-color: rgba(1, 153, 109, 0.20);
+background-image: url(./image/woomen-product.png);
+background-repeat: no-repeat;
+background-position-x:center;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+ .footer{
+  color: var(--text-for-background);
+  background-color: var(--background-color);
+  padding-bottom: 60px;
+ }
+
+ .footer-box{
+  width: 1372px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+
+ .footer-title{
+  margin-bottom: 40px;
+  padding-top: 60px;
+ }
+
+.footer-items{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+
