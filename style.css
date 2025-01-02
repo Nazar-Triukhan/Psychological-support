@@ -301,24 +301,92 @@ text-align: left;
 /* vcvxcvcx */
 
 .mikayla{
-  margin-top: 120px;
-  padding-bottom: 160px;
+  margin-top: 100px;
+  padding-bottom: 10px;
+}
+
+.mikayla-box{
+  position: relative;
 }
 
 .mikayla-bacg{
-  width: 638.465px;
-  height: 573.26px;
+  width: 638px;
+  height: 576px;
+  margin-left: 30px;
   border-radius: 18.112px;
 background-color: rgba(1, 153, 109, 0.20);
 background-image: url(./image/woomen-product.png);
 background-repeat: no-repeat;
 background-position-x:center;
+position: relative;
 }
 
+.mikayla-boxx{
+  width: 270px;
+  height: 250px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 3.73px;
+  background-color: #FFF;
+  background-image: url(./image/woomen-avatar.png);
+  background-repeat: no-repeat;
+  background-position: 102px 20px;
+  transform: translateY(-50%); 
+}
 
+.mikayla-title{
+}
 
+.mikayla-text{
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
 
+.mikayla-item:first-child{
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
 
+.mikayla-text-box{
+  position: absolute;
+  top: 50px; 
+  left: 750px;
+  right: 20px;
+}
+
+.mikayla-caption{
+  color: var(--two-paragrav-color);
+font-family: Lato;
+font-size: 25px;
+font-weight: 600;
+}
+
+.mikayla-headline{
+  color: var(--popular-text-color);
+font-family: Georgia;
+font-size: 50px;
+font-weight: 700;
+line-height: 157%;
+}
+
+.mikayla-quote{
+  color: var(--paragrav-color);
+font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 157%;
+}
+
+.mikayla-btn{
+  color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+background-color: var(--popular-text-color);
+padding: 20px 50px;
+margin-top: 20px;
+}
 
 
 
